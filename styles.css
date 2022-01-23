@@ -20,6 +20,8 @@ button {
 img {
     width: 150px;
     max-height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
 }
 
 a {
@@ -80,7 +82,31 @@ ul {
 .title {
     font-size: 36px;
     font-weight:900;
-    margin-top: 20px;
+    margin: 40px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin: 40px;
+}
+
+.lou {
+    max-width: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.speak {
+    font-size: 18px;
+    margin-left: 500px;
 }
 
 
