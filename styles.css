@@ -6,6 +6,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: -10px;
 }
 
 button {
@@ -107,6 +108,38 @@ ul {
 .speak {
     font-size: 18px;
     margin-left: 500px;
+}
+
+.modal {
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.donate {
+    border: solid #F9FAF8 3px;
+    font-size: 16px;
+}
+
+.head {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.bottom {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 20px;
 }
 
 
